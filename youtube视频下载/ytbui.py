@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(842, 413)
+        MainWindow.resize(940, 443)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
@@ -35,9 +35,12 @@ class Ui_MainWindow(object):
         self.lineEdit_5 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_5.setGeometry(QtCore.QRect(30, 170, 91, 31))
         self.lineEdit_5.setObjectName("lineEdit_5")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(800, 170, 61, 31))
+        self.pushButton_2.setObjectName("pushButton_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 842, 30))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 940, 30))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -54,3 +57,4 @@ class Ui_MainWindow(object):
         self.lineEdit_3.setText(_translate("MainWindow", "Youtube视频下载"))
         self.lineEdit_4.setText(_translate("MainWindow", "视频地址"))
         self.lineEdit_5.setText(_translate("MainWindow", "存储地址"))
+        self.pushButton_2.setText(_translate("MainWindow", "..."))
